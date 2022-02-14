@@ -9,6 +9,7 @@ function Home() {
   return (
     <div>
       Home Page
+      {process.env.REACT_APP_SERVICE_ENV}
       <button type='button' onClick={goDetail}>
         go Detail
       </button>
