@@ -1,7 +1,13 @@
 import React from 'react';
+import { BrowserRouter as Switch } from 'react-router-dom';
+import Router from '@layouts/Router';
 
 function App() {
-  return <div> APP page</div>;
+  return (
+    <Switch>
+      <Router />
+    </Switch>
+  );
 }
 
 export default App;
